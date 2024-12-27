@@ -3,7 +3,7 @@ Dynamic Time Warping Proximity Analysis (DTW-PA) and Dynamic Time Warping Interm
 
 ## Instalation
 
-Clone the repository to your preferred folder.
+Clone the repository into the folder of your choice.
 
     $ git clone https://github.com/eikmeier-cn/dtw-pa-isa.git
 
@@ -11,6 +11,14 @@ Access the dtw-pa-isa folder. To manage dependencies more effectively, consider 
 
     $ python -m pip install --upgrade pip
     $ pip install -r requirements.txt
+
+Additionally, you may want to install Jupyter Notebook
+
+    $ pip install notebook
+
+## Tutorials
+
+XXX
 
 ## Dependencies
 
