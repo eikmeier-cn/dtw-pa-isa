@@ -7,12 +7,12 @@ Welcome to the dtw-pa-isa code repository for the Dynamic Time Warping Proximity
 ### Dynamic Time Warping Proximity Analysis (DTW-PA)
 
 DTW-PA provides a qualitative assessment of the suitability of the initial or current model to mitigate cycle-skipping in FWI. This analysis evaluates whether the model is well-positioned to achieve reliable inversion results. The method is detailed in the paper:
-Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 1: a method for a proximity analysis between the current and the observed (reference to be provided soon).
+**Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 1: a method for a proximity analysis between the current and the observed** (reference to be provided soon).
 
 ### Dynamic Time Warping Intermediate Signal Approach (DTW-ISA)
 
 DTW-ISA mitigates cycle-skipping by generating intermediate signals between the modelled and observed (true) signals. These signals are positioned close enough to the modelled signals to serve as temporary targets, allowing the inversion to progress incrementally and guiding the solution gradually toward the observed data. The method is detailed in the paper:
-Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 2: an intermediate signal approach (reference to be provided soon).
+**Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 2: an intermediate signal approach** (reference to be provided soon).
 
 ## Code
 
@@ -45,6 +45,14 @@ Additionally, you may want to install Jupyter Notebook.
 - [DTAIDistance](https://github.com/wannesm/dtaidistance)
 - [Matplotlib](https://matplotlib.org)
 - [Cycler](https://matplotlib.org/cycler/)
+
+## Citing
+
+If you publish results using dtw-pa-isa code, DTW-PA or DTW-ISA, we would be grateful if you would cite the following papers.
+
+- [Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 1: a method for a proximity analysis between the current and the observed]() (reference to be provided soon).
+- [Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 2: an intermediate signal approach]() (reference to be provided soon).
+- [PhD Thesis]() (reference to be provided soon).
 
 ## Get in touch
 
