@@ -11,7 +11,7 @@ Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Par
 
 ### Dynamic Time Warping Intermediate Signal Approach (DTW-ISA)
 
-DTW-ISA mitigates cycle-skipping by generating intermediate signals between the modeled and observed (true) signals. These signals are positioned close enough to the modeled signals to serve as temporary targets, allowing the inversion to progress incrementally and guiding the solution gradually toward the observed data. The method is detailed in the paper:
+DTW-ISA mitigates cycle-skipping by generating intermediate signals between the modelled and observed (true) signals. These signals are positioned close enough to the modelled signals to serve as temporary targets, allowing the inversion to progress incrementally and guiding the solution gradually toward the observed data. The method is detailed in the paper:
 Full-waveform inversion cycle-skipping mitigation with dynamic time warping, Part 2: an intermediate signal approach (reference to be provided soon).
 
 ## Code
@@ -29,7 +29,7 @@ Access the dtw-pa-isa folder. To manage dependencies more effectively, consider 
     $ python -m pip install --upgrade pip
     $ pip install -r requirements.txt
 
-Additionally, you may want to install Jupyter Notebook
+Additionally, you may want to install Jupyter Notebook.
 
     $ pip install notebook
 
