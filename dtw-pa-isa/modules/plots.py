@@ -1371,15 +1371,15 @@ def plot_xy(y, title=None, xlabel=None, ylabel=None, xlimit=None, ylimit=None,
     plt.style.use('default')
     plt.rcParams.update({'font.size': 12})
 
+    if figsize is not None:
+        plt.figure(figsize=figsize)
+
     if xrearrange is not None:
         xr = np.arange(
             xrearrange[0], len(y)+xrearrange[0], xrearrange[1])
         plt.plot(xr, y, color=color)
     else:
         plt.plot(y, color=color)
-
-    if figsize is not None:
-        plt.figure(figsize=figsize)
 
     if xticks is not None:
         xt = np.arange(xticks[0], len(y)+xticks[0], xticks[1])
