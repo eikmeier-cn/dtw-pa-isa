@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14679872.svg)](https://doi.org/10.5281/zenodo.14679872)
+
 # Dynamic Time Warping Proximity Analysis (DTW-PA) and Intermediate Signal Approach (DTW-ISA)
 
 Welcome to the dtw-pa-isa code repository for the Dynamic Time Warping Proximity Analysis (DTW-PA) and the Dynamic Time Warping Intermediate Signal Approach (DTW-ISA). These methods are designed to assess and mitigate cycle-skipping in Full-Waveform Inversion (FWI).
